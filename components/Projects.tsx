@@ -4,19 +4,21 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "AI Multi-Agent Assistant",
-    desc: "Autonomous AI system with planning, memory and tool usage.",
+    title: "Student-Performance-system-ML",
+    desc: "Autonomous ML system with planning, memory and tool usage.",
+    link: "https://github.com/prashantghodke9426-cmyk/Student-Performance-system-ML.git"
   },
   {
-    title: "SaaS Password Manager",
+    title: "Password-Checker",
     desc: "Secure cloud-based password management system.",
+    link: "https://github.com/prashantghodke9426-cmyk/Password-Checker.git"
   },
   {
-    title: "AI Chatbot",
-    desc: "Transformer-based chatbot with contextual memory.",
+    title: "portfolio",
+    desc: "AI-focused personal portfolio showcasing ML projects, scalable systems, and modern full-stack development. 🚀.",
+    link: "https://github.com/prashantghodke9426-cmyk/portfolio.git"
   },
 ];
-
 export default function Projects() {
   return (
     <section id="projects" className="py-24 bg-slate-800 text-white text-center px-6">
@@ -39,6 +41,13 @@ export default function Projects() {
             <p className="text-gray-400">
               {project.desc}
             </p>
+            <a
+  href={project.link}
+  target="_blank"
+  className="inline-block mt-4 text-blue-400 hover:underline"
+>
+  View on GitHub →
+</a>
           </motion.div>
         ))}
       </div>

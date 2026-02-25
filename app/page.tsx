@@ -3,6 +3,9 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import TechStack from "@/components/TechStack";
 import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
+import Learning from "@/components/Learning";
+import Achievements from "@/components/Achievements";
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
       <About />
       <TechStack />
       <Projects />
+      <Skills />
+      <Learning />
+      <Achievements />
     </main>
   );
 }
