@@ -7,6 +7,7 @@ import Skills from "@/components/Skills";
 import Learning from "@/components/Learning";
 import Achievements from "@/components/Achievements";
 import RecruiterCTA from "@/components/RecruiterCTA";
+import AIChat from "@/components/AIChat";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Learning />
       <Achievements />
       <RecruiterCTA />
+      <AIChat />
     </main>
   );
 }
