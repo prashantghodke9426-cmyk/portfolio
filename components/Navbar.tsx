@@ -15,7 +15,7 @@ export default function Navbar() {
           </a>
           <a href="https://github.com/prashantghodke9426-cmyk" target="_blank">GitHub</a>
           <a href="https://www.linkedin.com/in/prashant-ghodke-513857297/" target="_blank">LinkedIn</a>
-          <a href="/resume.pdf"download className="hover:text-purple-400 transition"> Resume
+          <a href="/Prashanth_Ghodke_CV.pdf"download className="hover:text-purple-400 transition"> Resume
           </a>
         </div>
       </div>

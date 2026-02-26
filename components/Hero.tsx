@@ -20,9 +20,9 @@ export default function Hero() {
       </p>
 
       <div className="mt-8">
-        <button className="px-6 py-3 bg-blue-600 rounded-xl hover:bg-blue-700 transition">
-          View Projects
-        </button>
+        <a href="#projects" className="px-6 py-3 bg-blue-600 rounded-xl hover:bg-blue-700 transition">
+            Projects
+          </a>
         <a
         href="/Prashanth_Ghodke_cv.pdf"download className="ml-4 px-6 py-3 bg-purple-600 rounded-xl hover:bg-purple-700 transition"> Download Resume
         </a>

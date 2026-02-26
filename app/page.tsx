@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Learning from "@/components/Learning";
 import Achievements from "@/components/Achievements";
+import RecruiterCTA from "@/components/RecruiterCTA";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Skills />
       <Learning />
       <Achievements />
+      <RecruiterCTA />
     </main>
   );
 }
